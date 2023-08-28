@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Lib">
+      <UniqueIdentifier>{09bf2a15-001d-422f-b763-6b975e4bf0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Global">
+      <UniqueIdentifier>{d6f5cc96-16e2-4922-a27d-ce910f685bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Fillet">
+      <UniqueIdentifier>{7c5d0697-d31d-4bc2-8763-dc5622972cf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Chamfer">
+      <UniqueIdentifier>{19c69baf-41ff-4bf4-92c3-a92cce76ae1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lib\Tools">
+      <UniqueIdentifier>{5e50094e-87f1-4593-a77d-836cebc33244}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Fillet\GeomBase_TSDBuild_Fillet.cxx">
+      <Filter>Lib\Fillet</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Chamfer\GeomBase_TSDBuild_Chamfer.cxx">
+      <Filter>Lib\Chamfer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lib\Tools\GeomBase_TSDBuild_Tools.cxx">
+      <Filter>Lib\Tools</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Lib\Global\GeomBaseGlobal_TSDBuild.hxx">
+      <Filter>Lib\Global</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Fillet\GeomBase_TSDBuild_Fillet.hxx">
+      <Filter>Lib\Fillet</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Chamfer\GeomBase_TSDBuild_Chamfer.hxx">
+      <Filter>Lib\Chamfer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lib\Tools\GeomBase_TSDBuild_Tools.hxx">
+      <Filter>Lib\Tools</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
